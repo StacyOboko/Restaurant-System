@@ -11,6 +11,6 @@ Through the HTML, JS and CSS format, I am able to present the program in an attr
 
 The home page has the HOME, MENU and REGISTER buttons. The user first registers themselves into the application by providing their names, email address and phone number. The page then redirects them to the menu page where they can see the menu that has the available food provided by the restaurant, their prices, description and availability. The page still has a HOME,REGISTER and TABLE-BOOKING button. The user then books a table by pressing the table-booking button that directs them to a new page where they can provide their names and suitable time. A message "The table is successfully booked for the next hour" then pops up to the screen. This shows the user has successfully booked the table for the next hour. On the lapse of this time, the application notifies the user with a message "Sorry but the table has expired". The user then has to book another table. 
 
-### Author name:
+## Author name:
 
 Stacy Oboko
