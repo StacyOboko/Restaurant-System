@@ -1,0 +1,118 @@
+{
+    "food" : [
+    {
+        "food type" :"tea and mandazi",
+        "price" : 150,
+        "description" : "Contains milk and sugar is provided",
+        "availability" : "available"
+    },
+    {
+        "food type" :"Chapati",
+        "price" : 30,
+        "description" : "Flat bread",
+        "availability" : "available"
+    }, {
+        "food type" :"Pilau",
+        "price" : 350,
+        "description" : "Fried rice with meat",
+        "availability" : "available"
+    }, {
+        "food type" :"Mukimo",
+        "price" : 200,
+        "description" : "Boiled potatoes mashed and mixed with vegetables accompanied by beef stew",
+        "availability" : "available"
+    }, {
+        "food type" :"Ugali, vegetables and meat",
+        "price" : 450,
+        "description" : "Maize flour is used to make ugali, vegetables and meat would be of the day's special",
+        "availability" : "available"
+    }, {
+        "food type" :"Bhajia",
+        "price" : 150,
+        "description" : "Potato pieces dipped in a flour mixed with spices and deep fried till golden brown",
+        "availability" : "available"
+    }, {
+        "food type" :"GitherI",
+        "price" : 100,
+        "description" : "A mixture of boiled maize and beans cooked with tomatoes.",
+        "availability" : "available"
+    }, {
+        "food type" :"Matoke",
+        "price" : 200,
+        "description" : "Bananas cooked with spices and tomatoes",
+        "availability" : "available"
+    }, {
+        "food type" :"Mashed potatoes",
+        "price" : 250,
+        "description" : "Mashed potatoes cooked with onions served with beef stew",
+        "availability" : "available"
+    }, {
+        "food type" :"Omelet and french fries",
+        "price" : 200,
+        "description" : "French fries cooked with eggs and served with kachumbari",
+        "availability" : "available"
+    }, {
+        "food type" :"French fries",
+        "price" : 100,
+        "description" : "Fried potato pieces served with kachumbari",
+        "availability" : "available"
+    }, {
+        "food type" :"Chips masala",
+        "price" : 200,
+        "description" : "French fries cooked with spices and sauces",
+        "availability" : "available"
+    }, {
+        "food type" :"Hot dog",
+        "price" : 100,
+        "description" : "Bread bun with sausage. murstard. tomato and barbeque sauces",
+        "availability" : "available"
+    }, {
+        "food type" :"Rice and stew",
+        "price" : 250,
+        "description" : "Fried rice served with beef stew",
+        "availability" : "available"
+    }, {
+        "food type" :"Mocktails",
+        "price" : 250,
+        "description" : "Sprite soda mixed with syrups of choice",
+        "availability" : "available"
+    },
+    {
+        "food type" :"Water",
+        "price" : 100,
+        "description" : "Can be served cold or at room temperature",
+        "availability" : "available"
+    },
+    {
+        "food type" :"Ice cream",
+        "price" : 200,
+        "description" : "Vanilla, chocolate, mango and strawberry available",
+        "availability" : "available"
+    },
+    {
+        "food type" :"Chicken soup",
+        "price" : 150,
+        "description" : "Chicken pieces shredded to make the stew",
+        "availability" : "available"
+    },
+    {
+        "food type" :"Fried fish",
+        "price" : 300,
+        "description" : "Fried fish cooked with tomatoes and accompanied with rice or ugali",
+        "availability" : "available"
+    },
+    {
+        "food type" :"Roasted meat",
+        "price" : 450,
+        "description" : "Served with kachumbari and ugali",
+        "availability" : "available"
+    },
+    {
+        "food type" :"Beef kabobs",
+        "price" : 300,
+        "description" : "Grilled meat served on sticks",
+        "availability" : "available"
+    }
+    
+    ]
+}

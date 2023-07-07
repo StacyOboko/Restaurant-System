@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pour L'amour de la Nourriture</title>
+    <link rel="icon" type="image/x-icon" href="Images/logo.png">
+
+   <link rel="stylesheet" href="style.css">
+  
+</head>
+<body>
+
+    
+    <header class="topnav">
+        <img src="Images/logo2.png" alt="logo">
+
+        
+        <ul class="menu">
+
+            <li> <a href= "index.html">HOME</a></li>
+            <li> <a href= "menu.html">MENU</a> </li>
+            <li> <a href= "register.html">REGISTER</a></li>
+       
+
+        </ul>  
+    
+        
+
+    </header>
+    <div class="slideshow-container">
+        <img src="Images/slides.jpeg" alt="Image 1">
+        <img src="Images/slides 2.jpeg" alt="Image 2">
+        <img src="Images/slides 3.jpeg" alt="Image 3">
+        <img src="Images/slides 4.jpeg" alt="Image 4">
+        <img src="Images/slides 5.jpeg" alt="Image 5">
+        <img src="Images/slides 6.jpeg" alt="Image 6">
+        <img src="Images/slides 7.jpeg" alt="Image 7">
+        <img src="Images/slides 8.jpeg" alt="Image 8">
+        <img src="Images/slides 9.jpeg" alt="Image 9">
+
+    </div>
+
+
+</body>
+
+<div id="footer">
+    <footer>
+        <p>Resto Nourriture &copy;</p>
+        <img src="Images/iconfb.png" alt="iconfb">
+        <img src="Images/iconinsta (1).png" alt="insta">
+        <img src="Images/icons8-linkedin-100.png" alt="linkedin">
+        <P>Reach us via Email <resto class="pourlanourritourre"></resto>@gmail.com</P>
+                <p>customer care hot line +254746997900 </p>
+    </footer>
+    
+</div>
+<script src="app.js"></script>
+<script> 
+ fetch('.db.json')
+ .then(res => {
+    return res.json();
+ })
+ .then(data => {
+    data.forEach(user => {
+        const markup = `<li> ${db.json}<li>`;
+            document.querySelector('ul').insertAdjacentHTML('beforeend',markup);
+    });
+ }
+
+</script>
+
+</html>

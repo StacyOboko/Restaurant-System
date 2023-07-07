@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Table Booking</title>
+  <link rel="icon" type="image/x-icon" href="Images/logo.png">
+
+
+  <link rel="stylesheet" type="text/css" href="style.css">
+
+</head>
+<body>
+
+    <header class="topnav">
+        <img src="Images/logo2.png" alt="logo">
+        <ul class="menu">
+
+            <li> <a href= "index.html">HOME</a></li>
+            <li> <a href= "menu.html">MENU</a> </li>
+       
+
+        </ul>  
+
+  <div class="container">
+    <h1>Table Booking</h1>
+    <form id="bookingForm">
+      <div class="form-group">
+        <label for="name">Name:</label>
+        <input type="text" id="name" required>
+      </div>
+
+      <div class="form-group">
+        <label for="time">Time:</label>
+        <input type="time" id="time" required>
+      </div>
+
+      <div id="message" class="message"></div>
+
+      <button type="submit" onclick="bookTable(event)">Book Table</button>
+    </form>
+
+    <div id="tablesAvailable" class="table-count">Tables Available: <span id="tableCount">139</span></div>
+  </div>
+
+  <script src="app.js"></script>
+
+</header>
+<div class="slideshow-container">
+    <img src="Images/slides.jpeg" alt="Image 1">
+    <img src="Images/slides 2.jpeg" alt="Image 2">
+    <img src="Images/slides 3.jpeg" alt="Image 3">
+    <img src="Images/slides 4.jpeg" alt="Image 4">
+    <img src="Images/slides 5.jpeg" alt="Image 5">
+    <img src="Images/slides 6.jpeg" alt="Image 6">
+    <img src="Images/slides 7.jpeg" alt="Image 7">
+    <img src="Images/slides 8.jpeg" alt="Image 8">
+    <img src="Images/slides 9.jpeg" alt="Image 9">
+  </div>
+
+</body>
+</html>
